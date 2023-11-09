@@ -9,7 +9,7 @@
 ### Introdução a interfaces de visão computacional, sistemas de versionamento de arquivos e controle de acesso via Tags
 
 [Overview](#%EF%B8%8F-overview) •
-[Interface de Visão Computacional](#-interface-de-visao-computacional) •
+[Interface de Visão Computacional](#-interface-de-vis%C3%A3o-computacional) •
 [Controle de acesso via tags](#-controle-de-acesso-via-tags) • 
 [Resultados](#-resultados) • 
 [Autores](#-autores)
@@ -74,7 +74,7 @@ else:
     print("Acesso negado!")
 ```
 
-## Resultados
+## 📌 Resultados
 
 Apesar dos algoritmos da biblioteca ```opencv``` serem bastante eficientes, a câmera utilizada na experiência não era de grande qualidade. Assim, grande parte dos rostos reconhecidos pelo algoritmo eram de partes de rostos:
 
@@ -92,7 +92,7 @@ O funcionamento completo pode ser visualizado em:
 * **Reconhecimento Facial:** https://drive.google.com/file/d/1PF6En-GlzKo97FEcxnr1xa8IvLNmZG4d/view?usp=sharing
 * **Controle de Acesso:** https://drive.google.com/file/d/1oBpXQ-3HLFVOu1fNlpmXDMI4b2EZ6qbm/view?usp=sharing
 
-## Autores
+## 👥 Autores
 
 * **Rafael Dalonso Schultz** - 11800945
 * **Ana Julia Aguiar Tagliassachi** - 11800632
