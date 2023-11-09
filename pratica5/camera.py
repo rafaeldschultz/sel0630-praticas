@@ -16,8 +16,6 @@ picam2.configure(camera_config)
 
 led = LED(18)
 
-#picam2.configure(picam2.create_preview_configuration(main={"format": 'XRGB8888',"size": (640, 480)})
-
 picam2.start()
 output_directory = "detected_faces"
 
