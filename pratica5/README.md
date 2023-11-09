@@ -86,9 +86,7 @@ Apesar dos algoritmos da biblioteca ```opencv``` serem bastante eficientes, a c�
 
 Já por parte do leitor RFID, os resultados foram bastante satisfatórios, com reconhecimento preciso das *TAGs*:
 
-<div align="center">
-<img width='300px' src="https://i.imgur.com/aZHVMCSh.gif"/>
-</div>
+![](https://github.com/rafaeldschultz/sel0630-praticas/blob/main/pratica5/RFID.gif)
 
 O funcionamento completo pode ser visualizado em:
 * **Reconhecimento Facial:** https://drive.google.com/file/d/1PF6En-GlzKo97FEcxnr1xa8IvLNmZG4d/view?usp=sharing
