@@ -9,8 +9,8 @@
 ### Gerenciamento de Serviços Personalizados em Sistemas Embarcados
 
 [Overview](#%EF%B8%8F-overview) •
-[Interface de Visão Computacional](#-piscando-led-com-bash) •
-[Controle de acesso via tags](#-piscando-led-com-python) • 
+[Piscando LED com bash](#-piscando-led-com-bash) •
+[Piscando LED com Python](#-piscando-led-com-python) • 
 [Resultados](#-resultados) • 
 [Autores](#-autores)
 
@@ -41,7 +41,7 @@ Também foi construído o script ```blinkoff.sh``` para desligar o LED, que ser�
 
 Para adicionar o serviço criado ao ```systemd```, inicialmente foi-se desenvolvido o script ```blink.service```. A associação do serviço com os scripts ```bash``` a serem executados é dada pelas linhas abaixo, em que o script ```ExecStart``` é executado a partir do momento em que o serviço é iniciado até o momento em que for finalizado, e o script ```ExecStop``` é executado quando o serviço for finalizado.
 
-```toml
+```yaml
 [Service]
 ExecStart=/home/sel/4532/praticas/pratica6/blink.sh
 ExecStop=/home/sel/4532/praticas/pratica6/blinkoff.sh
@@ -62,7 +62,7 @@ O controle do LED é feito através da biblioteca ```gpiozero``` e dos métodos 
 
 Para adicionar o serviço criado ao ```systemd```, desenvolveu-se o script ```blink_python.service```, no qual a sua associação com os scripts ```python``` desenvolvidos é realizada pelas linhas:
 
-```toml
+```yaml
 [Service]
 ExecStart=/usr/bin/python3 /home/sel/4532/praticas/pratica6/blink_led.py
 ExecStop=/usr/bin/python3 /home/sel/4532/praticas/pratica6/blink_off.py
