@@ -1,0 +1,11 @@
+[Unit]
+Description= Blink LED
+After=multi-user.target
+
+[Service]
+ExecStart=/home/sel/4532/praticas/pratica6/blink.sh
+ExecStop=/home/sel/4532/praticas/pratica6/blinkoff.sh
+user=SEL
+
+[Install]
+WantedBy=multi-user.target
